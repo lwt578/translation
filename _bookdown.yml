@@ -4,9 +4,6 @@ new_session: true # 在每个章节渲染时使用新的R会话
 delete_merged_file: true
 
 language:
-  label:
-    fig: "图 "
-
   ui:
     chapter_name: ""
     
@@ -16,5 +13,4 @@ output:
     toc_depth: 2
     toc_title: "目录"
     lib_dir: "book_assets"
-  bookdown::pdf_book:
-    keep_tex: yes
+
