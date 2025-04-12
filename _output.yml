@@ -1,6 +1,7 @@
 bookdown::gitbook:
-  pandoc_args: ["--number-offset=0"]
   css: style.css
+  split_by: "chapter"  # 确保每章单独渲染
+  pandoc_args: ["--number-offset=0"]
   config:
     toc:
       before: |
@@ -11,7 +12,8 @@ bookdown::gitbook:
       scroll_highlight: yes
       
     download: ["pdf", "epub"]
-
+    
+  
 
 bookdown::pdf_book:
   includes:
