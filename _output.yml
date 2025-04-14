@@ -1,6 +1,9 @@
 bookdown::gitbook:
   css: style.css
-  split_by: "chapter"  # 确保每章单独渲染
+  split_by: section
+  global_numbering: false
+  number_sections: true
+  split_bib: false
   pandoc_args: ["--number-offset=0"]
   config:
     toc:
