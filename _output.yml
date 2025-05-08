@@ -1,12 +1,11 @@
 bookdown::gitbook:
   css: style.css
   split_by: section
-  global_numbering: false
-  number_sections: true
-  split_bib: false
-  pandoc_args: ["--number-offset=0"]
+  split_bib: yes
+  
   config:
     toc:
+      depth: 2
       before: |
         <li><a href="./">群云，关原</a></li>
       after: |
@@ -16,13 +15,21 @@ bookdown::gitbook:
       
     download: ["pdf", "epub"]
     
+    sharing:
+      facebook: true
+      github: true
+      twitter: true
+      weibo: true
+      all: ['facebook', 'twitter', 'weibo', 'github']
   
 
-bookdown::pdf_book:
-  includes:
-    in_header: preamble.tex
-  latex_engine: xelatex
-  citation_package: biblatex
-  keep_tex: yes
-  
+  bookdown::pdf_book:
+    includes:
+      in_header: preamble.tex
+    latex_engine: xelatex
+    citation_package: biblatex
+    documentclass: book
+    link-citations: true
+    keep_tex: yes
+
 bookdown::epub_book: default

@@ -3,8 +3,6 @@ title: "群云，关原"
 author: "【日】岳宏一郎"
 date: "2025-03-11"
 site: bookdown::bookdown_site
-documentclass: book
-link-citations: true
 bibliography:
 - book.bib
 - packages.bib

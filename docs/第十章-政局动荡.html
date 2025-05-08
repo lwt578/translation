@@ -100,6 +100,7 @@
 <li class="chapter" data-level="" data-path="第二十章-赌局.html"><a href="第二十章-赌局.html"><i class="fa fa-check"></i>第二十章 赌局</a></li>
 <li class="chapter" data-level="" data-path="第二十一章-白鸦.html"><a href="第二十一章-白鸦.html"><i class="fa fa-check"></i>第二十一章 白鸦</a></li>
 <li class="chapter" data-level="" data-path="第二十二章-结婚.html"><a href="第二十二章-结婚.html"><i class="fa fa-check"></i>第二十二章 结婚</a></li>
+<li class="chapter" data-level="" data-path="第二十三章-涸辙之鲋.html"><a href="第二十三章-涸辙之鲋.html"><i class="fa fa-check"></i>第二十三章 涸辙之鲋</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -323,15 +324,15 @@
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
+"github": true,
 "facebook": true,
 "twitter": true,
 "linkedin": false,
-"weibo": false,
+"weibo": true,
 "instapaper": false,
 "vk": false,
 "whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+"all": ["facebook", "twitter", "weibo", "github"]
 },
 "fontsettings": {
 "theme": "white",
@@ -357,6 +358,7 @@ gitbook.start({
 },
 "toc": {
 "collapse": "subsection",
+"depth": 2,
 "scroll_highlight": true
 }
 });
