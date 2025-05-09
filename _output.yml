@@ -21,9 +21,8 @@ bookdown::gitbook:
       twitter: true
       weibo: true
       all: ['facebook', 'twitter', 'weibo', 'github']
-  
-
-  bookdown::pdf_book:
+      
+bookdown::pdf_book:
     includes:
       in_header: preamble.tex
     latex_engine: xelatex
@@ -31,5 +30,5 @@ bookdown::gitbook:
     documentclass: book
     link-citations: true
     keep_tex: yes
-
-bookdown::epub_book: default
+  
+bookdown::epub_book: default 

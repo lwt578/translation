@@ -1,5 +1,6 @@
 book_filename: "群云，关原"
 output_dir: "docs"
+latex_engine: xelatex
 new_session: true # 在每个章节渲染时使用新的R会话
 delete_merged_file: true
 
@@ -13,7 +14,7 @@ output:
     cover_image: "image/cover.jpg"  # 封面图片路径
     toc_title: "目录"
     lib_dir: "book_assets"
-    
-  bookdown::pdf_book: default
-
-  bookdown::epub_book: default
+  
+  bookdown::pdf_book: default 
+  
+  bookdown::epub_book: default 
