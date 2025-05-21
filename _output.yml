@@ -1,3 +1,6 @@
+# 电子书输出选项，必须在这个文件中列出，否则生成不了
+# 可选：gitbook/pdf/epub
+
 bookdown::gitbook:
   css: style.css
   split_by: section
