@@ -30,7 +30,6 @@ bookdown::pdf_book:
       in_header: preamble.tex
     latex_engine: xelatex
     citation_package: biblatex
-    documentclass: book
     link-citations: true
     keep_tex: yes
   

@@ -7,7 +7,7 @@ delete_merged_file: true
 
 language:
   ui:
-    chapter_name: ""
+    chapter_name: ""  # 章节名称前面没有编号
     
 output:
   bookdown::gitbook:
