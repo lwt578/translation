@@ -33,4 +33,6 @@ bookdown::pdf_book:
     link-citations: true
     keep_tex: yes
   
-bookdown::epub_book: default 
+bookdown::epub_book: 
+  stylesheet: css/epub.css # 可选：专为ePub设计的CSS文件
+  cover_image: images/cover.jpg # 可选：封面图片路径
