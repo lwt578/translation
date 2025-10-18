@@ -17,4 +17,6 @@ output:
   
   bookdown::pdf_book: default 
   
-  bookdown::epub_book: default 
+  bookdown::epub_book:
+    cover_image: "image/cover.jpg"  # 封面图片路径
+
