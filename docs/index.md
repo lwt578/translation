@@ -11,5 +11,5 @@ description: |
 github-repo: 日本作家岳宏一郎写的日本战国历史小说。
 ---
 
-# {-}
+#  {-}
 ![](image/cover.jpg){width=100%}
