@@ -5,6 +5,7 @@ bookdown::gitbook:
   css: style.css
   split_by: section
   split_bib: yes
+  cover_image: image/cover.jpg # 可选：封面图片路径
   
   config:
     toc:
@@ -32,6 +33,7 @@ bookdown::pdf_book:
     citation_package: biblatex
     link-citations: true
     keep_tex: yes
+    cover_image: image/cover.jpg # 可选：封面图片路径
   
 bookdown::epub_book: 
   cover_image: image/cover.jpg # 可选：封面图片路径
