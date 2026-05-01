@@ -6,6 +6,8 @@ bookdown::gitbook:
   split_by: section
   split_bib: yes
   cover_image: image/cover.jpg # 可选：封面图片路径
+  includes:
+    in_header: in_header.html
   
   config:
     toc:
